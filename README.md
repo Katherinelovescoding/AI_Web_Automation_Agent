@@ -1,6 +1,6 @@
 # AI Web Automation Agent
 
-An AI agent that autonomously fills out web forms using Playwright and the Vercel AI SDK. You provide a target URL and patient/form variables; the agent navigates the page, discovers fields, fills them in batches, and submits the form.
+An AI agent that autonomously fills out web forms using Playwright and the Vercel AI SDK. You provide a target URL and variables; the agent navigates the page, discovers fields, fills them in batches, and submits the form.
 
 ## Features
 
