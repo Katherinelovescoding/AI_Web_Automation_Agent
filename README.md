@@ -44,5 +44,5 @@ npm run dev
 
 ## Usage
 
-- **Default run** — Uses `TARGET_URL` from `.env` and default patient variables (e.g. John Doe, 1990-01-01, Medical ID 91927885).
-- **Custom variables** — Call `main()` (or your API) with a partial `WorkflowVariables` object to override first name, last name, date of birth, medical ID, etc.
+- **Default run** — Uses `TARGET_URL` from `.env` and default variables (e.g. John Doe, 1990-01-01, id: "12345678", email: "john.doe@example.com"...).
+- **Custom variables** — Call `main()` (or your API) with a partial `WorkflowVariables` object to override first name, last name, date of birth, id, email, passport number, phone, address, etc.
